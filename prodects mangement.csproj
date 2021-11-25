@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F2C52762-5D75-4417-884D-5A45CD08C074}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>prodects_mangement</RootNamespace>
+    <AssemblyName>prodects mangement</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.Desktop.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v20.2.Core, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v20.2.Core, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BL\Cls_cusromer.cs" />
+    <Compile Include="BL\CLS_LOGIN.cs" />
+    <Compile Include="BL\CLS_orders.cs" />
+    <Compile Include="BL\cls_prodect.cs" />
+    <Compile Include="DAL\DataAccessLayer.cs" />
+    <Compile Include="PL\ADD_Prodect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\ADD_Prodect.Designer.cs">
+      <DependentUpon>ADD_Prodect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_categories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_categories.Designer.cs">
+      <DependentUpon>FRM_categories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\frm_Customers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\frm_Customers.Designer.cs">
+      <DependentUpon>frm_Customers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_CUSTOMERS_LIST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_CUSTOMERS_LIST.Designer.cs">
+      <DependentUpon>FRM_CUSTOMERS_LIST.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_ORDER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_ORDER.Designer.cs">
+      <DependentUpon>FRM_ORDER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_preview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_preview.Designer.cs">
+      <DependentUpon>FRM_preview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Frm_PRODUCT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Frm_PRODUCT.Designer.cs">
+      <DependentUpon>Frm_PRODUCT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\frm_products_list.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\frm_products_list.Designer.cs">
+      <DependentUpon>frm_products_list.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\LOGIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\LOGIN.Designer.cs">
+      <DependentUpon>LOGIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\MAIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\MAIN.Designer.cs">
+      <DependentUpon>MAIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rpt\CrystalReport2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Rpt\FRM_RPT_prodects.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rpt\FRM_RPT_prodects.Designer.cs">
+      <DependentUpon>FRM_RPT_prodects.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rpt\rpt_all_catgris.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_all_catgris.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Rpt\Rpt_all_prodect.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_all_prodect.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Rpt\RPT_prd_single.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPT_prd_single.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Rpt\RTP_ORDER.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RTP_ORDER.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Rpt\SINGLECATEGORY.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SINGLECATEGORY.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="PL\ADD_Prodect.resx">
+      <DependentUpon>ADD_Prodect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_categories.resx">
+      <DependentUpon>FRM_categories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\frm_Customers.resx">
+      <DependentUpon>frm_Customers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_CUSTOMERS_LIST.resx">
+      <DependentUpon>FRM_CUSTOMERS_LIST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_ORDER.resx">
+      <DependentUpon>FRM_ORDER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_preview.resx">
+      <DependentUpon>FRM_preview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Frm_PRODUCT.resx">
+      <DependentUpon>Frm_PRODUCT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\frm_products_list.resx">
+      <DependentUpon>frm_products_list.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\LOGIN.resx">
+      <DependentUpon>LOGIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\MAIN.resx">
+      <DependentUpon>MAIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Rpt\CrystalReport2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpt\FRM_RPT_prodects.resx">
+      <DependentUpon>FRM_RPT_prodects.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpt\rpt_all_catgris.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_all_catgris.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpt\Rpt_all_prodect.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_all_prodect.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpt\RPT_prd_single.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_prd_single.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpt\RTP_ORDER.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RTP_ORDER.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpt\SINGLECATEGORY.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SINGLECATEGORY.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\408-4088745_red-close-icon-png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\130-1304453_computer-icons-check-mark-royalty-free-true-false.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login-button-png-hi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\200-2003072_logout-button-png-clip-art-at-clker-com-vector-clip-logout-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-button-png-30232.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9351b548.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\XHVExK %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\XHVExK.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Male-user-add-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Male-user-add-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="صور المشاريع\no-image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="صور المشاريع\XHVExK.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="صور المشاريع\9351b548.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="صور المشاريع\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="صور المشاريع\Male-user-add-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="صور المشاريع\search-flat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="صور المشاريع\login-clipart-images-8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="صور المشاريع\avatar-hombre-comentarios.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="صور المشاريع\16-166560_log-clipart-user-profile-user-login-icon-png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="صور المشاريع\4051919-middle.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

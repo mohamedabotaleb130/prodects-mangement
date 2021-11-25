@@ -1,0 +1,81 @@
+G:\مشاريع\prodects mangement\bin\Debug\prodects mangement.exe.config
+G:\مشاريع\prodects mangement\bin\Debug\prodects mangement.exe
+G:\مشاريع\prodects mangement\bin\Debug\prodects mangement.pdb
+G:\مشاريع\prodects mangement\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+G:\مشاريع\prodects mangement\bin\Debug\CrystalDecisions.ReportSource.dll
+G:\مشاريع\prodects mangement\bin\Debug\CrystalDecisions.Shared.dll
+G:\مشاريع\prodects mangement\bin\Debug\CrystalDecisions.Windows.Forms.dll
+G:\مشاريع\prodects mangement\bin\Debug\DevExpress.Data.Desktop.v20.2.dll
+G:\مشاريع\prodects mangement\bin\Debug\DevExpress.Data.v20.2.dll
+G:\مشاريع\prodects mangement\bin\Debug\DevExpress.Printing.v20.2.Core.dll
+G:\مشاريع\prodects mangement\bin\Debug\DevExpress.Sparkline.v20.2.Core.dll
+G:\مشاريع\prodects mangement\bin\Debug\DevExpress.Utils.v20.2.dll
+G:\مشاريع\prodects mangement\bin\Debug\DevExpress.XtraEditors.v20.2.dll
+G:\مشاريع\prodects mangement\bin\Debug\FlashControlV71.dll
+G:\مشاريع\prodects mangement\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+G:\مشاريع\prodects mangement\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+G:\مشاريع\prodects mangement\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+G:\مشاريع\prodects mangement\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+G:\مشاريع\prodects mangement\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+G:\مشاريع\prodects mangement\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+G:\مشاريع\prodects mangement\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+G:\مشاريع\prodects mangement\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+G:\مشاريع\prodects mangement\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+G:\مشاريع\prodects mangement\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+G:\مشاريع\prodects mangement\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+G:\مشاريع\prodects mangement\bin\Debug\DevExpress.Pdf.v20.2.Core.dll
+G:\مشاريع\prodects mangement\bin\Debug\DevExpress.Pdf.v20.2.Drawing.dll
+G:\مشاريع\prodects mangement\bin\Debug\ShockwaveFlashObjects.dll
+G:\مشاريع\prodects mangement\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+G:\مشاريع\prodects mangement\bin\Debug\stdole.dll
+G:\مشاريع\prodects mangement\bin\Debug\DevExpress.Data.Desktop.v20.2.xml
+G:\مشاريع\prodects mangement\bin\Debug\DevExpress.Data.v20.2.xml
+G:\مشاريع\prodects mangement\bin\Debug\DevExpress.Printing.v20.2.Core.xml
+G:\مشاريع\prodects mangement\bin\Debug\DevExpress.Sparkline.v20.2.Core.xml
+G:\مشاريع\prodects mangement\bin\Debug\DevExpress.Utils.v20.2.xml
+G:\مشاريع\prodects mangement\bin\Debug\DevExpress.XtraEditors.v20.2.xml
+G:\مشاريع\prodects mangement\bin\Debug\DevExpress.Pdf.v20.2.Core.xml
+G:\مشاريع\prodects mangement\bin\Debug\DevExpress.Pdf.v20.2.Drawing.xml
+G:\مشاريع\prodects mangement\bin\Debug\de\DevExpress.Data.v20.2.resources.dll
+G:\مشاريع\prodects mangement\bin\Debug\es\DevExpress.Data.v20.2.resources.dll
+G:\مشاريع\prodects mangement\bin\Debug\ja\DevExpress.Data.v20.2.resources.dll
+G:\مشاريع\prodects mangement\bin\Debug\ru\DevExpress.Data.v20.2.resources.dll
+G:\مشاريع\prodects mangement\bin\Debug\de\DevExpress.Printing.v20.2.Core.resources.dll
+G:\مشاريع\prodects mangement\bin\Debug\es\DevExpress.Printing.v20.2.Core.resources.dll
+G:\مشاريع\prodects mangement\bin\Debug\ja\DevExpress.Printing.v20.2.Core.resources.dll
+G:\مشاريع\prodects mangement\bin\Debug\ru\DevExpress.Printing.v20.2.Core.resources.dll
+G:\مشاريع\prodects mangement\bin\Debug\de\DevExpress.Sparkline.v20.2.Core.resources.dll
+G:\مشاريع\prodects mangement\bin\Debug\es\DevExpress.Sparkline.v20.2.Core.resources.dll
+G:\مشاريع\prodects mangement\bin\Debug\ja\DevExpress.Sparkline.v20.2.Core.resources.dll
+G:\مشاريع\prodects mangement\bin\Debug\ru\DevExpress.Sparkline.v20.2.Core.resources.dll
+G:\مشاريع\prodects mangement\bin\Debug\de\DevExpress.Utils.v20.2.resources.dll
+G:\مشاريع\prodects mangement\bin\Debug\es\DevExpress.Utils.v20.2.resources.dll
+G:\مشاريع\prodects mangement\bin\Debug\ja\DevExpress.Utils.v20.2.resources.dll
+G:\مشاريع\prodects mangement\bin\Debug\ru\DevExpress.Utils.v20.2.resources.dll
+G:\مشاريع\prodects mangement\bin\Debug\de\DevExpress.XtraEditors.v20.2.resources.dll
+G:\مشاريع\prodects mangement\bin\Debug\es\DevExpress.XtraEditors.v20.2.resources.dll
+G:\مشاريع\prodects mangement\bin\Debug\ja\DevExpress.XtraEditors.v20.2.resources.dll
+G:\مشاريع\prodects mangement\bin\Debug\ru\DevExpress.XtraEditors.v20.2.resources.dll
+G:\مشاريع\prodects mangement\bin\Debug\de\DevExpress.Pdf.v20.2.Core.resources.dll
+G:\مشاريع\prodects mangement\bin\Debug\es\DevExpress.Pdf.v20.2.Core.resources.dll
+G:\مشاريع\prodects mangement\bin\Debug\ja\DevExpress.Pdf.v20.2.Core.resources.dll
+G:\مشاريع\prodects mangement\bin\Debug\ru\DevExpress.Pdf.v20.2.Core.resources.dll
+G:\مشاريع\prodects mangement\obj\Debug\prodects_mangement.PL.ADD_Prodect.resources
+G:\مشاريع\prodects mangement\obj\Debug\prodects_mangement.PL.FRM_categories.resources
+G:\مشاريع\prodects mangement\obj\Debug\prodects_mangement.PL.frm_Customers.resources
+G:\مشاريع\prodects mangement\obj\Debug\prodects_mangement.PL.FRM_CUSTOMERS_LIST.resources
+G:\مشاريع\prodects mangement\obj\Debug\prodects_mangement.PL.FRM_ORDER.resources
+G:\مشاريع\prodects mangement\obj\Debug\prodects_mangement.PL.FRM_preview.resources
+G:\مشاريع\prodects mangement\obj\Debug\prodects_mangement.PL.Frm_PRODUCT.resources
+G:\مشاريع\prodects mangement\obj\Debug\prodects_mangement.PL.LOGIN.resources
+G:\مشاريع\prodects mangement\obj\Debug\prodects_mangement.PL.MAIN.resources
+G:\مشاريع\prodects mangement\obj\Debug\prodects_mangement.Properties.Resources.resources
+G:\مشاريع\prodects mangement\obj\Debug\prodects_mangement.Rpt.FRM_RPT_prodects.resources
+G:\مشاريع\prodects mangement\obj\Debug\prodects mangement.csproj.GenerateResource.cache
+G:\مشاريع\prodects mangement\obj\Debug\prodects mangement.exe.licenses
+G:\مشاريع\prodects mangement\obj\Debug\prodects mangement.csproj.CoreCompileInputs.cache
+G:\مشاريع\prodects mangement\obj\Debug\prodects mangement.csproj.CopyComplete
+G:\مشاريع\prodects mangement\obj\Debug\prodects mangement.exe
+G:\مشاريع\prodects mangement\obj\Debug\prodects mangement.pdb
+G:\مشاريع\prodects mangement\obj\Debug\prodects mangement.csprojAssemblyReference.cache
+G:\مشاريع\prodects mangement\obj\Debug\prodects_mangement.PL.frm_products_list.resources
